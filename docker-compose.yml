@@ -1,7 +1,7 @@
 services:
   minecraft:
     image: itzg/minecraft-server:java21
-    container_name: rainbowranks-test
+    container_name: vexksaa
     restart: unless-stopped
     tty: true
     stdin_open: true
@@ -11,10 +11,10 @@ services:
       EULA: "TRUE"
       TYPE: "PAPER"
       VERSION: "1.21.8"
-      MEMORY: "32G"
-      MOTD: "Vexssa Test"
+      MEMORY: "2G"
+      MOTD: "Vexksaa"
       ENABLE_RCON: "false"
-      ONLINE_MODE: "true"
+      ONLINE_MODE: "false"
     volumes:
       - ./test-server:/data
       - ./build/libs:/plugins:ro
