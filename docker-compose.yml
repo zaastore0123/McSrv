@@ -11,7 +11,7 @@ services:
       EULA: "TRUE"
       TYPE: "PAPER"
       VERSION: "1.21.8"
-      MEMORY: "G"
+      MEMORY: "32G"
       MOTD: "Vexssa Test"
       ENABLE_RCON: "false"
       ONLINE_MODE: "true"
